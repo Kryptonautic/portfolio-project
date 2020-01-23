@@ -1,4 +1,3 @@
-# Jobs Django App - models.py
 from django.db import models
 
 # subclass of Model class
