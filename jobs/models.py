@@ -1,3 +1,7 @@
+# Jobs Django App - models.py
 from django.db import models
 
-# Create your models here.
+# subclass of Model class
+class Job(models.Model):
+	image = models.ImageField(upload_to='images/')
+	summary = models.CharField(max_length=200)
